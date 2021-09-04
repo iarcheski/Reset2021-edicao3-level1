@@ -1,9 +1,9 @@
 public class Mario {
 
-    String nome;
-    int idade;
-    String genero;
-    String superPoderes;
+    public String nome;
+    public int idade;
+    private String genero;
+    protected String superPoderes;
 
     public void caracteristicas() {
         System.out.println("Nome: " + nome);
