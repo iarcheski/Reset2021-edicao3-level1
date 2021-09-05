@@ -2,10 +2,10 @@ import java.util.Random;
 
 public class Jogo {
 
-    private Personagem jogador1;
-    private Personagem jogador2;
+    private Personagem_ jogador1;
+    private Personagem_ jogador2;
 
-    public Jogo(Personagem jogador1, Personagem jogador2) {
+    public Jogo(Personagem_ jogador1, Personagem_ jogador2) {
         this.jogador1 = jogador1;
         this.jogador2 = jogador2;
     }
