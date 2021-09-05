@@ -1,18 +1,19 @@
-public class Mario {
+public class Mario extends Personagem{
+    private Yoshi yoshi;
 
-    String nome;
-    int idade;
-    String genero;
-    String superPoderes;
-
-    public void caracteristicas() {
-        System.out.println("Nome: " + nome);
-        System.out.println("idade: " + idade);
-        System.out.println("genero: " + genero);
+    public Mario(String nome, int idade, double altura){
+        super(nome, idade, altura);
 
     }
-    public void superPoderes() {
-        System.out.println("Super Poderes: " + superPoderes);
-
+    public void montarNoYoshi(Yoshi yoshi){
+        this.yoshi = yoshi;
     }
+    public void marioMontadoNoYoshi(){
+        if (this.yoshi != null) {
+            System.out.println("Mario está montado no Yoshi");
+        } else {
+            System.out.println("Mario não está montado no Yoshi");
+        }
+    }
+
 }
