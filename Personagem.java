@@ -43,12 +43,12 @@ public class Personagem {
 
     }
     public void caracteristicas() {
-        System.out.println("Nome: " + nome);
-        System.out.println("idade: " + idade);
-        System.out.println("altura: " + altura);
-        System.out.println("estamina: " + estamina);
-        System.out.println("moedas coletadas: " + moedasColetadas);
-        System.out.println("vidas: " + vidas);
+        System.out.print("Nome: " + nome + ",");
+        System.out.print(" Idade: " + idade + ",");
+        System.out.print(" Altura: " + altura + ",");
+        System.out.print(" Estamina: " + estamina + ",");
+        System.out.print(" Moedas coletadas: " + moedasColetadas + ",");
+        System.out.println(" Vidas: " + vidas + ", ");
 
     }
     public void superPoderes() {

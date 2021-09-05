@@ -2,19 +2,14 @@ public class PersonagemMain {
 
     public static void main(String[] args) {
 
-        Personagem mario = new Personagem("Mario", 40, 1.60);
-        System.out.println(">>>>>|<<<<<");
-        System.out.println("Altura do salto do Mario");
-        mario.saltar();
-        mario.caracteristicas();
-        System.out.println(">>>>>|<<<<<");
+        Personagem jogador1 = new Personagem("Mario", 40, 1.60);
 
-        Personagem luigi = new Personagem("Luigi", 40, 1.80);
 
-        System.out.println("Altura do salto do Luigi");
-        luigi.saltar();
-        luigi.caracteristicas();
-        System.out.println(">>>>>|<<<<<");
+        Personagem jogador2 = new Personagem("Luigi", 40, 1.80);
+
+
+        Jogo jogo = new Jogo(jogador1, jogador2);
+        jogo.jogar();
 
     }
 }
